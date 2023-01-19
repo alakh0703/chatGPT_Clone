@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codex - Your AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+    
+
+<div class="container">
+        
+        <div class="switch-holder">
+            <div class="switch-label">
+                <span id="botchat">ChatBOT</span>
+            </div>
+            <div class="switch-toggle">
+                <input type="checkbox" id="bluetooth">
+                <label for="bluetooth"></label>
+            </div>
+        </div>
+<div id="job">
+
+  <h2>Write the job title</h2>
+  <br>
+  <textarea name="job" id="jobTitle" rows="2" cols="5" placeholder="Ex: React Developer, Frontend Developer .."></textarea>
+</div>
+       
+
+   
+
+    </div>
+
+      <div id="chat_container"></div>
+
+
+      <button id="garesponse" disabled>Generating a response ....</button>
+ <button id="rresponse">Regerate response</button>
+
+ 
+      <form  >
+       
+        <textarea name="prompt" id="textArea51" rows="3" cols="1" placeholder="Start Chat..."></textarea>
+        <button type="submit"><img src="assets/send.svg" alt="send" />
+      </form>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
